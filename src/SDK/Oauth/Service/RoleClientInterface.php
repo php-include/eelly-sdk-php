@@ -74,7 +74,7 @@ interface RoleClientInterface
      *
      * @since 2017-7-24
      */
-    public function listRoleClientPage(int $roleId = null, int $currentPage = 1, int $limit = 10): array;
+    public function listRoleClientPage(int $roleId , int $currentPage = 1, int $limit = 10): array;
 
     /**
      * 获取角色没有关联的客户端列表.
